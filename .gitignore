@@ -2,3 +2,4 @@
 app/__init__.pyc
 app/views.pyc
 config.py
+rdio/rdio_consumer_credentials.py
