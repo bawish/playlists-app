@@ -1,5 +1,5 @@
 *.pyc
-app/__init__.pyc
-app/views.pyc
+*.db
 config.py
 rdio/rdio_consumer_credentials.py
+db_respository/
