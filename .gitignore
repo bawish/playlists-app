@@ -1,5 +1,5 @@
 *.pyc
 *.db
 config.py
-rdio/rdio_consumer_credentials.py
+rdio_consumer_credentials.py
 db_respository/

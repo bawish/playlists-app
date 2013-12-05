@@ -1,6 +1,9 @@
 from flask import render_template
-from rdio/rdio_consumer_credentials import *
+from flask_oauth import OAuth # HOPE THIS WORKS
+from rdio_consumer_credentials import *
 from app import app
+
+oauth = OAuth() # HOPE THIS WORKS
 
 # this MIGHT be a way to initiate the rdio oauth interaction ????
 rdio = oauth.remote_app('rdio',
